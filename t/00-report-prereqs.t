@@ -66,7 +66,7 @@ my $static_prereqs = do { my $x = {
        'runtime' => {
                       'requires' => {
                                       'Dist::Zilla' => '5',
-                                      'Dist::Zilla::Plugin::ReadmeFromPod' => '0.133360',
+                                      'Dist::Zilla::Plugin::ReadmeAnyFromPod' => '0.133360',
                                       'Dist::Zilla::PluginBundle::DAGOLDEN' => '0.062',
                                       'Dist::Zilla::Role::PluginBundle::PluginRemover' => '0',
                                       'Dist::Zilla::Util' => '0',

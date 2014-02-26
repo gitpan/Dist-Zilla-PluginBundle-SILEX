@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Dist::Zilla::PluginBundle::SILEX",
   "PREREQ_PM" => {
     "Dist::Zilla" => 5,
-    "Dist::Zilla::Plugin::ReadmeFromPod" => "0.133360",
+    "Dist::Zilla::Plugin::ReadmeAnyFromPod" => "0.133360",
     "Dist::Zilla::PluginBundle::DAGOLDEN" => "0.062",
     "Dist::Zilla::Role::PluginBundle::PluginRemover" => 0,
     "Dist::Zilla::Util" => 0,
@@ -39,7 +39,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "version" => 0
   },
-  "VERSION" => "v0.0.1",
+  "VERSION" => "v0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -48,7 +48,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Dist::Zilla" => 5,
-  "Dist::Zilla::Plugin::ReadmeFromPod" => "0.133360",
+  "Dist::Zilla::Plugin::ReadmeAnyFromPod" => "0.133360",
   "Dist::Zilla::PluginBundle::DAGOLDEN" => "0.062",
   "Dist::Zilla::Role::PluginBundle::PluginRemover" => 0,
   "Dist::Zilla::Util" => 0,

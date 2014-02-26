@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 package Pod::Weaver::PluginBundle::SILEX;
-our $VERSION = 'v0.0.1'; # VERSION
+our $VERSION = 'v0.0.2'; # VERSION
 
 # Dependencies
 use Moose 0.99;
@@ -34,7 +34,7 @@ Pod::Weaver::PluginBundle::SILEX - SILEX's default Pod::Weaver config
 
 =head1 VERSION
 
-version v0.0.1
+version v0.0.2
 
 =head1 DESCRIPTION
 

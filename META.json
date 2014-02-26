@@ -49,7 +49,7 @@
       "runtime" : {
          "requires" : {
             "Dist::Zilla" : "5",
-            "Dist::Zilla::Plugin::ReadmeFromPod" : "0.133360",
+            "Dist::Zilla::Plugin::ReadmeAnyFromPod" : "0.133360",
             "Dist::Zilla::PluginBundle::DAGOLDEN" : "0.062",
             "Dist::Zilla::Role::PluginBundle::PluginRemover" : "0",
             "Dist::Zilla::Util" : "0",
@@ -78,11 +78,11 @@
    "provides" : {
       "Dist::Zilla::PluginBundle::SILEX" : {
          "file" : "lib/Dist/Zilla/PluginBundle/SILEX.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       },
       "Pod::Weaver::PluginBundle::SILEX" : {
          "file" : "lib/Pod/Weaver/PluginBundle/SILEX.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       }
    },
    "release_status" : "stable",
@@ -97,7 +97,7 @@
          "web" : "https://github.com/silexkr/dist-zilla-pluginbundle-silex"
       }
    },
-   "version" : "v0.0.1",
+   "version" : "v0.0.2",
    "x_authority" : "cpan:SILEX"
 }
 

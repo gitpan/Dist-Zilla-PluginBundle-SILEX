@@ -3,7 +3,7 @@ use warnings;
 
 package Dist::Zilla::PluginBundle::SILEX;
 # ABSTRACT: Dist::Zilla configuration the way SILEX does it
-our $VERSION = 'v0.0.1'; # VERSION
+our $VERSION = 'v0.0.2'; # VERSION
 
 # Dependencies
 use autodie 2.00;
@@ -14,7 +14,7 @@ use Dist::Zilla 5; # Number 5 is ALIVE!
 
 use Dist::Zilla::PluginBundle::DAGOLDEN 0.062 ();
 
-use Dist::Zilla::Plugin::ReadmeFromPod 0.133360 ();
+use Dist::Zilla::Plugin::ReadmeAnyFromPod 0.133360 ();
 
 use Dist::Zilla::Util ();
 use List::MoreUtils;
@@ -192,7 +192,7 @@ Dist::Zilla::PluginBundle::SILEX - Dist::Zilla configuration the way SILEX does 
 
 =head1 VERSION
 
-version v0.0.1
+version v0.0.2
 
 =head1 SYNOPSIS
 
